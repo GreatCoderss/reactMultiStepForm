@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Paper } from "@material-ui/core";
-import { styles } from "./styles";
-import { renderText } from "./DisplayComponent";
+import { styles } from "../common/styles";
+import { renderText } from "../common/DisplayComponent";
 
 const FinalStep = ({ data }) => {
   return (

@@ -9,14 +9,12 @@ import {
   Step,
   StepLabel,
 } from "@material-ui/core";
-
-import { styles } from "./styles";
-import Step1 from "./step1";
-import Step2 from "./step2";
-import Step3 from "./step3";
-import FinalStep from "./FinalStep";
-
-import { renderText } from "./DisplayComponent";
+import Step1 from "./Steps/step1";
+import Step2 from "./Steps/step2";
+import Step3 from "./Steps/step3";
+import FinalStep from "./Steps/FinalStep";
+import { renderText } from "./common/DisplayComponent";
+import { styles } from "./common/styles";
 
 class FormComponent extends Component {
   state = {
@@ -140,11 +138,6 @@ class FormComponent extends Component {
               </Stepper>
             </Paper>
             {getStepContent(this.state.stepCount)}
-            {/* <Step1
-              state={this.state}
-              handleChange={handleOnChange}
-              handleNext={handleNextStep}
-            /> */}
           </form>
         </Grid>
       </Grid>

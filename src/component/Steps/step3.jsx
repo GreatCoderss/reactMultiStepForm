@@ -1,12 +1,12 @@
 import React from "react";
 import { Box, Grid, Paper } from "@material-ui/core";
-import { styles } from "./styles";
+import { styles } from "../common/styles";
 import {
   renderButton,
   renderInputField,
   renderSelect,
   renderText,
-} from "./DisplayComponent";
+} from "../common/DisplayComponent";
 
 const Step3 = ({
   state,

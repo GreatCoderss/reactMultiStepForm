@@ -1,9 +1,9 @@
-import logo from './logo.svg';
+import FormComponent from './component/FormComponent';
 import './App.css';
 
 function App() {
   return (
-   ' heool word '
+   <FormComponent/>
   );
 }
 
